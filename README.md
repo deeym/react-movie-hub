@@ -1,16 +1,33 @@
-# React + Vite
+# React Movie Hub
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A movie discovery web application built with React, Vite, and Tailwind CSS.
 
-Currently, two official plugins are available:
+**Project status:** In progress.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## About
 
-## React Compiler
+This is a hands-on learning project based on the React tutorial by JavaScript Mastery. I'm using it to practice React fundamentals, component development, styling, API integration, and Git/GitHub workflows.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
 
-## Expanding the Oxlint configuration
+- React
+- Vite
+- JavaScript
+- Tailwind CSS
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+*Additional technologies will be documented as they are introduced and implemented.*
+
+## Tutorial and Acknowledgments
+
+This project is being developed as a learning exercise alongside the [React JS 19 Full Course by JavaScript Mastery](https://www.youtube.com/watch?v=dCLhUialKPQ).
+
+- **Original repository:** [JavaScript Mastery — React Movies](https://github.com/adrianhajdin/react-movies)
+
+The original project is credited as a learning reference. Please consult its license and applicable third-party terms regarding reuse of code and assets.
+
+## Planned Improvements
+
+- Build the movie discovery interface.
+- Practice reusable React components and state management.
+- Integrate movie data from an API.
+- Add personal improvements as my skills develop.
