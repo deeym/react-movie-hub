@@ -2,7 +2,11 @@
 
 A movie discovery app built with React, Vite, and Tailwind CSS. It pulls movie data from the TMDB API and uses Appwrite to track searches and surface trending titles.
 
-**Status:** Core implementation complete. Independent enhancements planned.
+**Status:** Core implementation complete. Independent enhancements in progress.
+
+<p align="center">
+  <img src="docs/demo-clip.gif" alt="Browsing movies, searching by title, and viewing trending results" width="800">
+</p>
 
 ## About
 
@@ -14,6 +18,24 @@ Built while following JavaScript Mastery's React tutorial, this project was my h
 - **Debounced search:** Search by title without flooding the API with requests.
 - **Trending movies:** Uses Appwrite search counts to display the five most-searched entries.
 - **Resilient UI:** Loading states and error handling for failed movie fetches.
+
+## Screenshots
+
+<p align="center">
+  <b>Landing page</b><br><br>
+  <img src="docs/landing-page.jpg" alt="Landing page with trending movies and popular titles" width="820">
+</p>
+
+<table align="center">
+  <tr>
+    <td width="400" align="center"><b>Full page</b></td>
+    <td width="400" align="center"><b>Search results</b></td>
+  </tr>
+  <tr>
+    <td><img src="docs/full-page.jpg" alt="Full-page view of the app from landing section to the end of the movie list" width="100%"></td>
+    <td><img src="docs/search-results.jpg" alt="Search results for a movie title with posters and ratings" width="100%"></td>
+  </tr>
+</table>
 
 ## Tech Stack
 
@@ -37,6 +59,7 @@ Built while following JavaScript Mastery's React tutorial, this project was my h
 
 - [ ] Add dedicated error handling for trending movie retrieval
 - [ ] Refactor and refine the codebase as my React skills grow
+- [ ] Deploy the app with a public live demo
 - [ ] Introduce original features and UI enhancements, documented as they ship
 
 ## Credits
